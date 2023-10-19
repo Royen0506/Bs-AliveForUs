@@ -1,0 +1,9 @@
+.btn-primary {
+    color: $white;
+    border: $dark;
+    background-color: $dark ;
+
+    &:hover {
+        background-color: $warning;
+    }
+}

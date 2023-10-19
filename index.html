@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Kalam&family=Noto+Sans+TC&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="stylesheets/all.css">
+
+    <style>
+        body {
+            background-image: url(images/background.jpg);
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top bg-dark border-bottom border-3 border-warning"
+        data-bs-theme="light">
+        <div class="container-fluid">
+            <a st class="navbar-brand" href="index.html">
+                <p class="mb-0 fs-2 text-primary cus-nav-title"><img class="object-fit-cover pb-1"
+                        style="height: 60px; width: 60px;" src="images/nav-brand.png" alt="">Alive <span
+                        class="text-warning fw">For </span><span class="fw-bold">Us</span></p>
+            </a>
+            <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item mx-lg-2">
+                        <a class="nav-link active" aria-current="page" href="index.html">首頁</a>
+                    </li>
+                    <li class="nav-item mx-lg-2">
+                        <a class="nav-link" href="#">戰地故事</a>
+                    </li>
+                    <li class="nav-item mx-lg-2">
+                        <a class="nav-link" href="#">人道問題</a>
+                    </li>
+                    <li class="nav-item mx-lg-2 dropdown">
+                        <a class="nav-link  dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            愛心捐贈
+                        </a>
+                        <ul class="dropdown-menu p-0" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item nav-link text-center border-bottom rounded" href="#">善款捐贈</a>
+                            </li>
+                            <li><a class="dropdown-item nav-link text-center border-bottom rounded" href="#">人道物資捐贈</a>
+                            </li>
+                            <li><a class="dropdown-item nav-link text-center rounded" href="#">軍用個裝捐贈</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item mx-lg-2">
+                        <a class="nav-link" href="#">最新消息</a>
+                    </li>
+                    <li class="nav-item mx-lg-2">
+                        <a class="nav-link" href="#">關於我們</a>
+                    </li>
+                    <li class="nav-item mx-lg-2">
+                        <a class="nav-link" href="#">常見問題</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <a href="#" class="btn btn-primary me-2">加入國際志願軍團</a>
+                    <a href="#" class="btn btn-primary ">加入我們</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 輪播 -->
+    <section class="container-fluid p-0 mb-5" style="margin-top: 70px;">
+        <div id="carouselExampleCaptions" class="carousel slide  carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/carousel01.jpg" class="d-block w-100 carousel-img" alt="...">
+                    <div class="carousel-caption p-0">
+                        <h1 class="cus-nav-title cus-carousel-caption display-1 text-primary mb-4 mb-lg-5 rounded-4">
+                            Alive
+                            <span class="text-warning fw">For
+                            </span><span class="fw-bold">Us</span>
+                        </h1>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/carousel02.jpg" class="d-block w-100 carousel-img" alt="...">
+                    <div class="carousel-caption">
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/carousel04.jpg" class="d-block w-100 carousel-img carousel-img" alt="...">
+                    <div class="carousel-caption">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/carousel03.jpg" class="d-block w-100 carousel-img carousel-img" alt="...">
+                    <div class="carousel-caption">
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section class="container mb-5">
+        <div class="row row-cols-1 row-cols-lg-2 g-lg-5 g-1">
+            <div class="mb-3">
+                <img class="img-fluid object-fit-cover rounded-5 shadow" src="./images/after01.jpg" alt="">
+            </div>
+            <div class="align-self-center text-center text-lg-start">
+                <p class="cus-font fs-3 mb-0 fw-bold opacity-25"><span class="text-primary">Full of love
+                    </span>
+                </p>
+                <h2 class="fw-bold"><span class="text-primary">您出錢</span>，<span class="text-warning">我出力</span></h2>
+
+                <p class="lh-lg">
+                    在這個充滿挑戰和不確定性的世界中，<br>仍有國家每天都在面對著各種人道危機和戰爭的現實。許多無辜的生命受到威脅，<br>他們急需我們的幫助。在這個關鍵時刻，我們呼籲您的慷慨支持，<br>以應對這些迫切的挑戰。<br>
+                    您捐贈的款項或物品將直接用於：<br><strong class="text-primary">醫療救護、教育學習、心理健康支持、社區重建、軍用個裝、人道物資</strong>
+                </p>
+
+                <a class="btn btn-warning px-2 py-1" href="#">了解更多...</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary container-fluid">
+        <div class="row row-cols-1 row-cols-lg-2">
+            <div class="text-white text-center flex-column align-self-center py-4">
+                <img style="height: 150px;" class="img-fluid" src="images//armylogo.png" alt="">
+                <h2 class="mt-3">加入國際志願軍團</h2>
+                <p class="p-3 mb-0">
+                    2022年2月4日清晨5點50分，俄羅斯克里姆林宮無預警釋出緊急直播——俄國總統普丁，在全世界面前，正式宣布向烏克蘭政府宣戰。
+                    同時間在烏克蘭首都基輔等城市陸續響起空襲警報，空襲爆炸產生的火光照亮了烏克蘭各地的黎明。直至今日，雖然烏克蘭尚未陷落，但烏東前線每日仍持續發生激烈的戰鬥，
+                    無數條寶貴的生命則仍持續在死亡的邊緣徘徊。我們理解這是多麼危險的環境，但我們仍誠摯地邀請任何具軍事專業背景的人士加入國際志願軍團。
+                </p>
+                <a class="btn btn-primary" href="">了解更多</a>
+            </div>
+            <div class="p-0"><img class="img-fluid object-fit-cover" src="images/solider.jpg" alt=""></div>
+        </div>
+    </section>
+
+    <section class="bg-white p-5">
+        <div class="container">
+            <h2 class="text-center text-warning fw-bold cus-font display-5">The <span class="text-primary">Sound</span>
+                Of The <span class="text-primary">Ukraine</span></h2>
+            <div class="row row-cols-1 row-cols-lg-2">
+                <audio controls preload="auto" class="rounded-5 align-self-center"
+                    src="video/Air raid sirens sound in Ukraine capital Kyiv _ AFP.mp4"></audio>
+                <div class="mt-3 mt-lg-0">
+                    <p class="lh-lg">您可以試著點選<span class="d-none d-lg-inline">旁邊</span><span
+                            class="d-inline d-lg-none">上面</span>的播放器，聽了之後您可能覺得困惑或是充滿不安，然而這正是烏克蘭人民這一年來最常聽到的聲音，不是蟲鳴鳥叫的聲音，也不是慶祝慶典的歡呼聲，更不是孩童嬉鬧的聲音，有的只是不斷循環播放的空襲警報聲響。在這段警報的背後更代表著驚恐避難的人民以及戰戰兢兢的士兵他們心中的陰影，他們永遠不知道警報響完的下一秒自己是不是還能活著。長期處於如此壓迫的生活環境更直接造成了他們患上精神上的疾病，如創傷後壓力症候群(PTSD)等....，因此我們才更加期盼能透過我們的捐贈行動持續為因戰爭流離失所及受傷的人們提供協助。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+
+    </section>
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

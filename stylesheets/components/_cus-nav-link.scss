@@ -1,0 +1,10 @@
+.nav-link {
+
+    color: $primary;
+    transition: 0.25s ease-in-out;
+
+    &:hover,
+    &:focus {
+        color: $warning;
+    }
+}

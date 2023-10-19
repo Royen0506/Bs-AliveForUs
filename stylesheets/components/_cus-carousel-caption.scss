@@ -1,0 +1,12 @@
+.cus-carousel-caption {
+    backdrop-filter: blur(3px);
+}
+
+@include media-breakpoint-up(lg) {
+
+    .cus-carousel-caption {
+        backdrop-filter: blur(2px);
+        font-size: 200px;
+    }
+
+}
