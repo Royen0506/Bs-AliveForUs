@@ -1,0 +1,16 @@
+.gallery-hover {
+    cursor: pointer;
+}
+
+.gallery-hover>.position-absolute {
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+
+.gallery-hover:hover>.position-absolute {
+    opacity: 1;
+    backdrop-filter: blur(5px);
+    // background-color: $warning;
+
+}

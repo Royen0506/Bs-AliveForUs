@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Alive For Us</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,6 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Kalam&family=Noto+Sans+TC&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link rel="stylesheet" href="stylesheets/all.css">
 
@@ -25,10 +26,11 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top bg-dark border-bottom border-3 border-warning"
+    <nav data-aos="fade-down" data-aos-once="true" data-aos-duration="500"
+        class="navbar navbar-expand-lg navbar-light bg-light fixed-top bg-dark border-bottom border-3 border-warning"
         data-bs-theme="light">
         <div class="container-fluid">
-            <a st class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="index.html">
                 <p class="mb-0 fs-2 text-primary cus-nav-title"><img class="object-fit-cover pb-1"
                         style="height: 60px; width: 60px;" src="images/nav-brand.png" alt="">Alive <span
                         class="text-warning fw">For </span><span class="fw-bold">Us</span></p>
@@ -57,7 +59,7 @@
                         <ul class="dropdown-menu p-0" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item nav-link text-center border-bottom rounded" href="#">善款捐贈</a>
                             </li>
-                            <li><a class="dropdown-item nav-link text-center border-bottom rounded" href="#">人道物資捐贈</a>
+                            <li><a class="dropdown-item nav-link text-center border-bottom rounded" href="#">物資捐贈</a>
                             </li>
                             <li><a class="dropdown-item nav-link text-center rounded" href="#">軍用個裝捐贈</a></li>
                         </ul>
@@ -81,7 +83,7 @@
     </nav>
 
     <!-- 輪播 -->
-    <section class="container-fluid p-0 mb-5" style="margin-top: 70px;">
+    <section class="container-fluid p-0" style="margin-top: 70px;">
         <div id="carouselExampleCaptions" class="carousel slide  carousel-fade" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -97,7 +99,8 @@
                 <div class="carousel-item active">
                     <img src="./images/carousel01.jpg" class="d-block w-100 carousel-img" alt="...">
                     <div class="carousel-caption p-0">
-                        <h1 class="cus-nav-title cus-carousel-caption display-1 text-primary mb-4 mb-lg-5 rounded-4">
+                        <h1
+                            class="cus-nav-title cus-carousel-caption display-1 text-primary mb-4 mb-lg-5 rounded-4 focus-in-expand">
                             Alive
                             <span class="text-warning fw">For
                             </span><span class="fw-bold">Us</span>
@@ -139,35 +142,18 @@
         </div>
     </section>
 
-    <section class="container mb-5">
-        <div class="row row-cols-1 row-cols-lg-2 g-lg-5 g-1">
-            <div class="mb-3">
-                <img class="img-fluid object-fit-cover rounded-5 shadow" src="./images/after01.jpg" alt="">
-            </div>
-            <div class="align-self-center text-center text-lg-start">
-                <p class="cus-font fs-3 mb-0 fw-bold opacity-25"><span class="text-primary">Full of love
-                    </span>
-                </p>
-                <h2 class="fw-bold"><span class="text-primary">您出錢</span>，<span class="text-warning">我出力</span></h2>
-
-                <p class="lh-lg">
-                    在這個充滿挑戰和不確定性的世界中，<br>仍有國家每天都在面對著各種人道危機和戰爭的現實。許多無辜的生命受到威脅，<br>他們急需我們的幫助。在這個關鍵時刻，我們呼籲您的慷慨支持，<br>以應對這些迫切的挑戰。<br>
-                    您捐贈的款項或物品將直接用於：<br><strong class="text-primary">醫療救護、教育學習、心理健康支持、社區重建、軍用個裝、人道物資</strong>
-                </p>
-
-                <a class="btn btn-warning px-2 py-1" href="#">了解更多...</a>
-            </div>
-        </div>
-    </section>
-
     <section class="bg-primary container-fluid">
         <div class="row row-cols-1 row-cols-lg-2">
             <div class="text-white text-center flex-column align-self-center py-4">
-                <img style="height: 150px;" class="img-fluid" src="images//armylogo.png" alt="">
-                <h2 class="mt-3">加入國際志願軍團</h2>
-                <p class="p-3 mb-0">
+                <img data-aos="zoom-in" data-aos-duration="1000" data-aos-anchor-placement="center-bottom"
+                    data-aos-once="true" style="height: 150px;" class="img-fluid" src="images//armylogo.png" alt="">
+                <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="100" data-aos-once="true"
+                    data-aos-anchor-placement="center-bottom" class="mt-3">
+                    －加入國際志願軍團－</h2>
+                <p data-aos="fade-up" data-aos-duration="1500" data-aos-delay="200"
+                    data-aos-anchor-placement="bottom-bottom" class="p-3 mb-0 lh-lg">
                     2022年2月4日清晨5點50分，俄羅斯克里姆林宮無預警釋出緊急直播——俄國總統普丁，在全世界面前，正式宣布向烏克蘭政府宣戰。
-                    同時間在烏克蘭首都基輔等城市陸續響起空襲警報，空襲爆炸產生的火光照亮了烏克蘭各地的黎明。直至今日，雖然烏克蘭尚未陷落，但烏東前線每日仍持續發生激烈的戰鬥，
+                    同時間在烏克蘭首都基輔等城市陸續響起空襲警報，導彈爆炸產生的火光照亮了烏克蘭各地的黎明。直至今日，雖然烏克蘭尚未陷落，但烏東前線每日仍持續發生激烈的戰鬥，
                     無數條寶貴的生命則仍持續在死亡的邊緣徘徊。我們理解這是多麼危險的環境，但我們仍誠摯地邀請任何具軍事專業背景的人士加入國際志願軍團。
                 </p>
                 <a class="btn btn-primary" href="">了解更多</a>
@@ -178,31 +164,167 @@
 
     <section class="bg-white p-5">
         <div class="container">
-            <h2 class="text-center text-warning fw-bold cus-font display-5">The <span class="text-primary">Sound</span>
+            <h2 data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100"
+                data-aos-anchor-placement="center-bottom" class="text-center text-warning fw-bold cus-font display-5">
+                The <span class="text-primary">Sound</span>
                 Of The <span class="text-primary">Ukraine</span></h2>
             <div class="row row-cols-1 row-cols-lg-2">
-                <audio controls preload="auto" class="rounded-5 align-self-center"
-                    src="video/Air raid sirens sound in Ukraine capital Kyiv _ AFP.mp4"></audio>
-                <div class="mt-3 mt-lg-0">
-                    <p class="lh-lg">您可以試著點選<span class="d-none d-lg-inline">旁邊</span><span
-                            class="d-inline d-lg-none">上面</span>的播放器，聽了之後您可能覺得困惑或是充滿不安，然而這正是烏克蘭人民這一年來最常聽到的聲音，不是蟲鳴鳥叫的聲音，也不是慶祝慶典的歡呼聲，更不是孩童嬉鬧的聲音，有的只是不斷循環播放的空襲警報聲響。在這段警報的背後更代表著驚恐避難的人民以及戰戰兢兢的士兵他們心中的陰影，他們永遠不知道警報響完的下一秒自己是不是還能活著。長期處於如此壓迫的生活環境更直接造成了他們患上精神上的疾病，如創傷後壓力症候群(PTSD)等....，因此我們才更加期盼能透過我們的捐贈行動持續為因戰爭流離失所及受傷的人們提供協助。
+                <video poster="./images/poster.jpg" controls preload="auto" class="rounded-5 align-self-center"
+                    src="video/Air raid sirens sound in Ukraine capital Kyiv _ AFP.mp4"></video>
+                <div class="mt-3 mt-lg-0 align-self-center">
+                    <p data-aos="fade-left" data-aos-anchor-placement="center-bottom" data-aos-duration="1000"
+                        data-aos-once="true" class="lh-lg">
+                        這是烏克蘭人民這一年來最常聽到的聲音，不是蟲鳴鳥叫的聲音，也不是慶祝慶典的歡呼聲，更不是孩童嬉鬧的聲音，有的只是不斷循環播放的空襲警報聲響。在這段警報的背後更代表著驚恐避難的人民以及戰戰兢兢的士兵他們心中的陰影，長期處於如此壓迫的生活環境更直接造成了他們患上精神上的疾病，如創傷後壓力症候群(PTSD)等....。因此我們才更加期盼能透過我們的捐贈行動持續為因戰爭流離失所及受傷的人們提供協助。
                     </p>
                 </div>
             </div>
         </div>
     </section>
 
-    <section>
+    <section class="container mb-5">
+        <div class="align-self-center text-center">
+            <p class="cus-font fs-3 mb-0 fw-bold opacity-25"><span class="text-primary">Full of love
+                </span>
+            </p>
+            <h2 class="fw-bold"><span class="text-primary">您出錢</span>，<span class="text-warning">我出力</span></h2>
 
+            <p class="lh-lg">
+                此時此刻烏克蘭仍在面對著各種人道危機和戰爭的現實。<br>許多無辜的生命受到威脅，他們急需我們的幫助。在這個關鍵時刻，我們呼籲您的慷慨支持，<br>以應對這些迫切的挑戰。<br>
+                您捐贈的款項或物品將直接用於：<br><strong class="text-primary">醫療救護、教育學習、心理健康支持、社區重建、軍用個裝、人道物資</strong>
+            </p>
+        </div>
+        <div class="row row-cols-2 row-cols-lg-3 mb-3 mb-lg-5 g-3">
+            <div class="position-relative overflow-hidden gallery-hover">
+                <img class="rounded-4 img-fluid w-100 h-100 object-fit-cover" src="./images/ambulance.jpg">
+                <div
+                    class="position-absolute top-50 start-50 translate-middle-x text-white text-center p-2 rounded-4 d-none d-lg-block text-nowrap">
+                    <h3>醫療救護</h3>
+                    <p>救護車捐贈、藥品購買、住院設備、人員訓練
+                    </p>
+                </div>
+            </div>
+            <div class="position-relative overflow-hidden gallery-hover">
+                <img class="rounded-4 img-fluid w-100 h-100 object-fit-cover" src="./images/sdudent.jpg">
+                <div
+                    class="position-absolute top-50 start-50 translate-middle-x text-white text-center p-2 rounded-4 d-none d-lg-block text-nowrap">
+                    <h3>教育學習</h3>
+                    <p>線上學習、學費補貼、教具捐贈</p>
+                </div>
+            </div>
+            <div class="position-relative overflow-hidden gallery-hover">
+                <img class="rounded-4 img-fluid w-100 h-100 object-fit-cover" src="./images/hearthealth.jpg">
+                <div
+                    class="position-absolute top-50 start-50 translate-middle-x text-white text-center p-2 rounded-4 d-none d-lg-block text-nowrap">
+                    <h3>心理健康支持</h3>
+                    <p>心靈諮商、持續關懷、重返社會
+                    </p>
+                </div>
+            </div>
+            <div class="position-relative overflow-hidden gallery-hover">
+                <img class="rounded-4 img-fluid w-100 h-100 object-fit-cover" src="./images/rebuild.jpg">
+                <div
+                    class="position-absolute top-50 start-50 translate-middle-x text-white text-center p-2 rounded-4 d-none d-lg-block text-nowrap">
+                    <h3>社區重建</h3>
+                    <p>住家重建補助、建商媒合
+                    </p>
+                </div>
+            </div>
+            <div class="position-relative overflow-hidden gallery-hover">
+                <img class="rounded-4 img-fluid w-100 h-100 object-fit-cover" src="./images/solider02.jpg">
+                <div
+                    class="position-absolute top-50 start-50 translate-middle-x text-white text-center p-2 rounded-4 d-none d-lg-block text-nowrap">
+                    <h3>軍用個裝</h3>
+                    <p>止血帶、防彈背心/頭盔、無人機
+                    </p>
+                </div>
+            </div>
+            <div class="position-relative overflow-hidden gallery-hover">
+                <img class="rounded-4 img-fluid w-100 h-100 object-fit-cover" src="./images/scarf.jpg">
+                <div
+                    class="position-absolute top-50 start-50 translate-middle-x text-white text-center p-2 rounded-4 d-none d-lg-block text-nowrap">
+                    <h3>人道物資</h3>
+                    <p>電暖器、禦寒衣物、糧食、網路
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center"><a class="btn px-5 py-2 btn-primary rounded-pill" href="#">了解更多</a></div>
     </section>
 
+    <section class="bg-warning p-3 pt-lg-5">
+        <div class="container">
+            <h2 class="text-white text-start fw-semibold">－溫存記憶－</h2>
+            <p class="mb-5 lh-lg">我們對於每個付出都非常重視，因此只要您完成捐贈即會獲得一個紀念小物，希望能讓您時刻想起這充滿意義的時刻。</p>
+            <div class="row row-cols-2 row-cols-lg-4 g-3 g-lg-5 mb-4">
+                <div><img class="img-fluid object-fit-cover h-100 w-100 rounded-4" src="./images/souvenir01.jpg"></div>
+                <div><img class="img-fluid object-fit-cover h-100 w-100 rounded-4" src="./images/souvenir02.jpg"></div>
+                <div><img class="img-fluid object-fit-cover h-100 w-100 rounded-4" src="./images/souvenir03.jpg"></div>
+                <div><img class="img-fluid object-fit-cover h-100 w-100 rounded-4" src="./images/souvenir04.jpg"></div>
+            </div>
+            <hr class="border border-white border-3 shadow">
+            <div class="text-center"><a class="btn px-3 py-2 btn-dark rounded-pill" href="#">－了解更多－</a>
+            </div>
+        </div>
+    </section>
 
-    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <section class="bg-primary py-5">
+        <h2 class="text-center fw-bold text-white">－戰地<span class="text-warning">故事－</span></span></h2>
+        <p class="text-center text-white">沒有真正的英雄，只有挺身而出的凡人</p>
+        <div class="container">
+            <div class="row row-cols-1 row-cols-lg-2">
+                <img class="rounded-5" src="./images/battlefield.jpg" alt="">
+                <p class="lh-lg align-self-center mt-3 mt-lg-0 text-center text-lg-start text-white">
+                    這是烏克蘭的一名士兵，名為斯卡昆（Vitaly
+                    Vladimirovich
+                    Skakun），在俄烏戰爭開打的初期由於俄軍持續進軍首都基輔迫使烏克蘭需炸毀部分橋樑，而其中位於烏克蘭軍隊事先在伊萬基夫（Ivankiv）的捷捷列夫河（Teteriv）上的吉尼切斯基公路橋（Henichesky
+                    bridge）埋下炸彈，只要俄軍一過橋就立即引爆。沒想到俄軍進攻速度太快，烏克蘭軍方來不及徹撤離並從遠程引爆炸彈，陷入困境。此時，英勇的特種獨立營工程師斯卡昆（Vitaly Vladimirovich
+                    Skakun）站了出來，他自告奮勇接下引爆橋梁的任務。最後他在無線電和同胞們道別後，便獨自1人走到橋上，用手動方式引爆炸彈，壯烈犧牲換取家園的安全。
+                </p>
+            </div>
+        </div>
+        <div class="text-center mt-3 mt-lg-5"><a class="btn px-3 py-2 btn-primary rounded-pill" href="#">－查看更多－</a>
+        </div>
+    </section>
 
+    <footer class="bg-white border-top border-warning border-4">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-lg-2 py-3">
+                <a class="navbar-brand align-self-center text-center" href="index.html">
+                    <p class="mb-0 display-2 text-primary cus-nav-title"><img class="object-fit-cover pb-1"
+                            style="height: 60px; width: 60px;" src="images/nav-brand.png" alt="">Alive <span
+                            class="text-warning fw">For
+                        </span><span class="fw-bold">Us</span></p>
+                </a>
+                <form class="needs-validation">
+                    <h3 class="text-center mt-2 mt-lg-3">聯絡我們/Contact Us</h3>
+                    <div class="mb-3">
+                        <label for="validationDefault01" class="form-label">Email</label>
+                        <input type="text" class="form-control" id="validationDefault01" placeholder="name@gmail.com"
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="validationTextarea" class="form-label">想說的話</label>
+                        <textarea class="form-control" placeholder="請輸入..." required></textarea>
+                        <div class="text-center text-lg-end"> <button class="btn btn-primary px-5 mt-3 rounded-4"
+                                type="submit">送出</button></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <p class="mb-0 text-center bg-dark text-white py-2">Copyright © 2023 AliveForUs. All rights
+            reserved.<br>個人作品無其他商業用途
+        </p>
+    </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+
 </body>
 
 </html>
