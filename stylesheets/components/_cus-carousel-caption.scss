@@ -1,11 +1,11 @@
 .cus-carousel-caption {
-    backdrop-filter: brightness(90%);
+    backdrop-filter: brightness(130%);
 }
 
 @include media-breakpoint-up(lg) {
 
     .cus-carousel-caption {
-        backdrop-filter: blur(2px);
+        backdrop-filter: brightness(130%);
         font-size: 200px;
     }
 

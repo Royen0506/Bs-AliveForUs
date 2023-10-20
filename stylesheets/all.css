@@ -26340,14 +26340,14 @@ textarea.form-control-lg {
 }
 
 .cus-carousel-caption {
-  -webkit-backdrop-filter: brightness(90%);
-          backdrop-filter: brightness(90%);
+  -webkit-backdrop-filter: brightness(130%);
+          backdrop-filter: brightness(130%);
 }
 
 @media (min-width: 992px) {
   .cus-carousel-caption {
-    -webkit-backdrop-filter: blur(2px);
-            backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: brightness(130%);
+            backdrop-filter: brightness(130%);
     font-size: 200px;
   }
 }
@@ -26413,5 +26413,10 @@ textarea.form-control-lg {
   #battlestory-img {
     width: 250px;
     height: 180px;
+  }
+}
+@media (min-width: 992px) {
+  #hug-img {
+    height: 600px;
   }
 }/*# sourceMappingURL=all.css.map */
