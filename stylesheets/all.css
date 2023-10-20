@@ -26340,8 +26340,8 @@ textarea.form-control-lg {
 }
 
 .cus-carousel-caption {
-  -webkit-backdrop-filter: blur(3px);
-          backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: brightness(90%);
+          backdrop-filter: brightness(90%);
 }
 
 @media (min-width: 992px) {
@@ -26400,6 +26400,18 @@ textarea.form-control-lg {
 
 .gallery-hover:hover > .position-absolute {
   opacity: 1;
-  -webkit-backdrop-filter: blur(4px);
-          backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: brightness(90%);
+          backdrop-filter: brightness(90%);
+}
+
+#battlestory-img {
+  height: 115px;
+  width: 180px;
+}
+
+@media (min-width: 992px) {
+  #battlestory-img {
+    width: 250px;
+    height: 180px;
+  }
 }/*# sourceMappingURL=all.css.map */

@@ -1,0 +1,11 @@
+ #battlestory-img {
+     height: 115px;
+     width: 180px;
+ }
+
+ @include media-breakpoint-up(lg) {
+     #battlestory-img {
+         width: 250px;
+         height: 180px;
+     }
+ }
