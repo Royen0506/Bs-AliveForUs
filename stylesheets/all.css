@@ -26419,4 +26419,30 @@ textarea.form-control-lg {
   .section-hero {
     height: 600px;
   }
+}
+.qa-title {
+  font-size: 100px;
+}
+
+@media (min-width: 992px) {
+  .qa-title {
+    font-size: 250px;
+  }
+}
+.souvenir {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.souvenir:hover {
+  scale: 1.05;
+}
+
+.souvenir > .souvenir-title {
+  opacity: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.souvenir:hover > .souvenir-title {
+  opacity: 1;
 }/*# sourceMappingURL=all.css.map */

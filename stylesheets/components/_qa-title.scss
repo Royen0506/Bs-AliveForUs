@@ -1,0 +1,10 @@
+.qa-title {
+    font-size: 100px;
+}
+
+@include media-breakpoint-up(lg) {
+    .qa-title {
+        font-size: 250px;
+    }
+
+}

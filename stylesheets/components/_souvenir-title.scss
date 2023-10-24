@@ -1,0 +1,20 @@
+.souvenir {
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+        scale: 1.05;
+    }
+}
+
+
+.souvenir>.souvenir-title {
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.souvenir:hover>.souvenir-title {
+
+    opacity: 1;
+
+}
